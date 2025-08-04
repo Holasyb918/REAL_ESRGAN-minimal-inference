@@ -51,10 +51,11 @@ cd REAL_ESRGAN-minimal-inference
 
 
 ```bash 
+# 可以直接参考 run.sh
 # single image
-python inference.py --input input_image.jpg --output output_path
+python inference.py --input input_image.jpg --output output_path --model_name RealESRGAN_x2
 # folder
-python inference.py --input input_image_path --output output_path
+python inference.py --input input_image_path --output output_path --model_name RealESRGAN_x2
 ```
 
 ## 🧩 模型支持 (Model Support)
